@@ -36,7 +36,10 @@ def display_answer(answer):
   pass
 
 def main():
-  pass
+  answer = random.choice(words)
+  hint = ["_"] * len(answer)
+  print(hint)
+  wrong_guesses = 0
 
 if __name__ == "__main__":
   main()
