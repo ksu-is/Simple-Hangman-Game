@@ -53,12 +53,20 @@ while is_running:
   if len(guess) != 1 or not guess.isalpha():
     print("Invalid input")
     continue
+
+  if guess in guessed_letters:
+    print(f"{guess} is already guessed")
+    continue
+
+  guessed_letters.add(guess)
   
   if guess in answer: 
     for i in range(len(answer)):
       if answer[i] == guess:
         hint[i] = guess
-      
+  else: 
+    wrong_guesses += 1
+        
 
 if __name__ == "__main__":
   main()
