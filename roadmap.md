@@ -8,10 +8,10 @@
 - [ ] Follow BroCode Hangman tutorial (Kenny & AJ)
   - [ ] 6 significant commits for each member
   - [ ] Don't put esoteric words in the word bank!
-- [ ] Find and add a file of pre-made words
 - [ ]  Submit Sprint 2
 
 ##Sprint 3
 - [ ] Create differnet difficulties: more chances for easier difficulties (Kenny & AJ)
+- [ ] Find and add a file of pre-made words
 - [ ] Create powerpoint presentation
 - [ ] Submit Sprint 3
