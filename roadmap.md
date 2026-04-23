@@ -7,6 +7,11 @@
 ##Sprint 2 
 - [X] Follow BroCode Hangman tutorial (Kenny & AJ)
   - [X] 6 significant commits for each member
+  - [X] MAKE SURE IT IS A PYTHON FILE
+  - [X] Create dictionary
+  - [X] Setup game logic (functions)
+  - [X] Create Game loop
+  - [X] Ensure proper format for guessing
   - [X] Don't put esoteric words in the word bank!
 - [X]  Submit Sprint 2
 
