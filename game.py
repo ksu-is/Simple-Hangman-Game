@@ -33,10 +33,10 @@ def display_man(wrong_guesses):
   print("**********")
 
 def display_hint(hint):
-  pass
+  print(" ".join(hint))
 
 def display_answer(answer):
-  pass
+ print(" ".join(answer))
 
 def main():
   answer = random.choice(words)
