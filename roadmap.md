@@ -9,9 +9,14 @@
   - [X] 6 significant commits for each member
   - [X] MAKE SURE IT IS A PYTHON FILE
   - [X] Create dictionary
+  - [X] Assign hangman art to dictionary
   - [X] Setup game logic (functions)
+  - [X] Setup random answer and hint funcitons
   - [X] Create Game loop
+  - [X] Create hangman display function
   - [X] Ensure proper format for guessing
+  - [X] Set up guess handling
+  - [X] Add win/lose condition 
   - [X] Don't put esoteric words in the word bank!
 - [X]  Submit Sprint 2
 
