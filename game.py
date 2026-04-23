@@ -72,6 +72,11 @@ while is_running:
     display_answer(answer)
     print("YOU WIN!")
     is_running = False
+  elif wrong_guesses >= len(hangman_art) - 1:
+    display_man(wrong_geusses)
+    display_answer(answer)
+    print("YOU LOSE!")
+    is_running = False
     
 if __name__ == "__main__":
   main()
