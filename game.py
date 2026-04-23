@@ -70,6 +70,8 @@ while is_running:
   if "_" not in hint:
     display_man(wrong_geusses)
     display_answer(answer)
+    print("YOU WIN!")
+    is_running = False
     
 if __name__ == "__main__":
   main()
