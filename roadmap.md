@@ -5,10 +5,10 @@
 - [X] Submit Sprint 1
 
 ##Sprint 2 
-- [ ] Follow BroCode Hangman tutorial (Kenny & AJ)
-  - [ ] 6 significant commits for each member
-  - [ ] Don't put esoteric words in the word bank!
-- [ ]  Submit Sprint 2
+- [X] Follow BroCode Hangman tutorial (Kenny & AJ)
+  - [X] 6 significant commits for each member
+  - [X] Don't put esoteric words in the word bank!
+- [X]  Submit Sprint 2
 
 ##Sprint 3
 - [ ] Create differnet difficulties: more chances for easier difficulties (Kenny & AJ)
