@@ -50,5 +50,8 @@ while is_running:
   display_hint(hint)
   guess = input("Enter a letter: ").lower()
 
+if guess in answer: 
+  for i in range(len(answer)):
+
 if __name__ == "__main__":
   main()
