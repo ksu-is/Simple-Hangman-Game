@@ -2,7 +2,7 @@
 - [x] Create README file (Kenny)
 - [X] Find, test, and examine a [hangman repository](https://github.com/jasmin-30/Hangman/tree/master/Hangman%20Game) (AJ)
 - [X] Find, test, and examine a [hangman repository](https://github.com/Tom25/Hangman/tree/master) (Kenny)
-- [ ] Submit Sprint 1
+- [X] Submit Sprint 1
 
 ##Sprint 2 
 - [ ] Follow BroCode Hangman tutorial (Kenny & AJ)
