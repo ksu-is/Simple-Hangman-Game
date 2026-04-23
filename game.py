@@ -66,7 +66,10 @@ while is_running:
         hint[i] = guess
   else: 
     wrong_guesses += 1
-        
 
+  if "_" not in hint:
+    display_man(wrong_geusses)
+    display_answer(answer)
+    
 if __name__ == "__main__":
   main()
