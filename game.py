@@ -3,7 +3,7 @@ import random
 import urllib.request
 
 ##Turn words file into list of words
-url = "https://raw.githubusercontent.com/ksu-is/Simple-Hangman-Game/refs/heads/Main/game.py"
+url = "https://raw.githubusercontent.com/Xethron/Hangman/refs/heads/master/words.txt"
 output_file = "words.txt"
 
 urllib.request.urlretrieve(url, output_file)
