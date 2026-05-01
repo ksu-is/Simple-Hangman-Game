@@ -1,7 +1,16 @@
 # Hangman Game
 import random
+import urllib.request
 
-words = ("apple", "orange", "banana", "coconut", "pineapple")
+##Turn words file into list of words
+url = "https://raw.githubusercontent.com/ksu-is/Simple-Hangman-Game/refs/heads/Main/game.py"
+output_file = "words.txt"
+
+urllib.request.urlretrieve(url, output_file)
+
+words_file = open('words.txt','r')
+
+words = words_file.read().split()
 
 # dictionary of key:()
 hangman_art = {0: ("   ",
