@@ -23,5 +23,8 @@
 ##Sprint 3
 - [ ] Create differnet difficulties: more chances for easier difficulties (Kenny & AJ)
 - [ ] Find and add a file of pre-made words
+- [X] Test and Bug Fix
+- [X] Fix 1 - Indentation Error
+- [X] Fix 2 - "guesses" typo error
 - [ ] Create powerpoint presentation
 - [ ] Submit Sprint 3
