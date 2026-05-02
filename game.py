@@ -8,7 +8,8 @@ output_file = "words.txt"
 
 urllib.request.urlretrieve(url, output_file)
 
-words_file = open('words.txt','r')
+with open('words.txt', 'r') as words_file:
+    words = words_file.read().split()
 
 words = words_file.read().split()
 
