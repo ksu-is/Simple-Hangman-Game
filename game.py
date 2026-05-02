@@ -49,7 +49,21 @@ def display_answer(answer):
   print(" ".join(answer))
 
 def main():
-  answer = random.choice(words)
+  print("Welcome to Hangman!")
+  diff = input("What difficulty would you like to play (easy, medium, hard): ")
+  if (diff == "easy"):
+      answer = random.choice(words)
+      while len(answer) > 4:
+          answer = random.choice(words)
+  elif (diff == "medium"):
+      answer = random.choice(words)
+      while len(answer) < 4 or len(answer) > 6:
+          answer = random.choice(words)
+  else:
+      answer = random.choice(words)
+      while len(answer) < 7:
+          answer = random.choice(words)
+
   hint = ["_"] * len(answer)
   wrong_guesses = 0
   guessed_letters = set()
