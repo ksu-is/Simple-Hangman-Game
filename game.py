@@ -11,8 +11,6 @@ urllib.request.urlretrieve(url, output_file)
 with open('words.txt', 'r') as words_file:
     words = words_file.read().split()
 
-words = words_file.read().split()
-
 # create dictionary for Hangman art
 hangman_art = {0: ("   ",
                    "   ",
