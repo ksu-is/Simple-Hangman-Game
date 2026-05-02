@@ -1,8 +1,8 @@
 # Hangman Game
 import random
-import urllib.request
-
-##Turn words file into list of words
+import urllib.request # for file traversing
+ 
+## Turn words file into list of words
 url = "https://raw.githubusercontent.com/Xethron/Hangman/refs/heads/master/words.txt"
 output_file = "words.txt"
 
@@ -13,7 +13,7 @@ with open('words.txt', 'r') as words_file:
 
 words = words_file.read().split()
 
-# dictionary of key:()
+# create dictionary for Hangman art
 hangman_art = {0: ("   ",
                    "   ",
                    "   "),
@@ -36,20 +36,26 @@ hangman_art = {0: ("   ",
                    "/|\\",
                    "/ \\")} 
 
+# display hangman based on amt of wrong guesses
 def display_man(wrong_guesses):
   print("**********")
   for line in hangman_art[wrong_guesses]:
     print(line)
   print("**********")
 
+# display unfilled letter guesses
 def display_hint(hint):
   print(" ".join(hint))
 
+# display correct guessed letters
 def display_answer(answer):
   print(" ".join(answer))
 
 def main():
+  # display welcome message
   print("Welcome to Hangman!")
+
+  # allow user to choose difficulty: lower difficulty -> shorter words
   diff = input("What difficulty would you like to play (easy, medium, hard): ")
   if (diff == "easy"):
       answer = random.choice(words)
@@ -64,6 +70,7 @@ def main():
       while len(answer) < 7:
           answer = random.choice(words)
 
+  # Set up hangman variables
   hint = ["_"] * len(answer)
   wrong_guesses = 0
   guessed_letters = set()
