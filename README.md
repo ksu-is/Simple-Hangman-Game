@@ -3,4 +3,4 @@ Player will be prompted with three difficulty settings: easy, medium, and hard. 
 
 ## Authors & Acknowledgements
 Code written by AJ Abshire and Kendarius Ward
-Followed tutorial by BroCode: 
+Followed tutorial by BroCode: https://www.youtube.com/watch?v=ag8NtD1e0Kc&pp=ygUPYnJvY29kZSBoYW5nbWFu
